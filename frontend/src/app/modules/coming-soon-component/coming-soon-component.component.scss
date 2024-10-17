@@ -1,0 +1,71 @@
+.coming-soon{
+  background-image: url("/assets/images/troltunga.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #012641;
+  text-align: center;
+  font-family: Dubai, serif;
+}
+
+.info-panel{
+  opacity: 65%;
+  background-color: white;
+  height: 50vh;
+  width: 30vw;
+  border-radius: 25px;
+}
+
+.title{
+  font-size: 65px;
+  font-family: Dubai, serif;
+  margin-bottom: 0;
+}
+
+.subtitle{
+  font-size: 25px;
+  margin-top: -35px;
+  margin-bottom: 15px;
+}
+
+.buttons{
+  background-color: #012641;
+  color: #f5fbf9;
+  border-radius: 25px;
+  height: 50px;
+  width: 100px;
+  opacity: 100%;
+}
+
+.buttons:hover {
+  transform: scale(1.2);
+}
+
+.more-info{
+  text-align: justify;
+  margin-top: -45px;
+  padding: 0 20px 0 20px;
+}
+
+h3{
+  margin: 0;
+  padding: 0;
+}
+
+.countdown{
+  font-size: 40px;
+  margin-bottom: 75px;
+  margin-top: -20px;
+}
+
+.info-container{
+  padding: 30px;
+  height: 12vh;
+}
+

@@ -1,1 +1,18 @@
-<p>coming-soon-component works!</p>
+<div class="coming-soon section">
+  <div class="info-panel">
+    <h1 class="title"><strong>Outventur3rs</strong></h1>
+    <h2 class="subtitle">Para los amantes del outdoor.</h2>
+    <div class="info-container">
+      <div class="main-info" *ngIf="!moreInfo">
+        <h3>Próximamente...</h3>
+        <h3 class="countdown">XX:XX:{{countdown}}</h3>
+      </div>
+      <div class="more-info" *ngIf="moreInfo">
+        <p>Outventur3rs es una plataforma diseñada para facilitar la creación y organización de grupos y eventos basados en intereses compartidos. En el contexto de deportes al aire libre, Meetup permite a personas con pasiones similares conectarse, planificar actividades y disfrutar juntas de la naturaleza.</p>
+      </div>
+    </div>
+
+    <button class="buttons" (click)="moreInfo=!moreInfo" *ngIf="!moreInfo">Saber más</button>
+    <button class="buttons" (click)="moreInfo=!moreInfo" *ngIf="moreInfo">Volver</button>
+  </div>
+</div>
