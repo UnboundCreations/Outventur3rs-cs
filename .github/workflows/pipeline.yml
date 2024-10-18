@@ -10,8 +10,6 @@ on:
       - main
 
 jobs:
-  build-backend:
-    runs-on: ubuntu-22.04
 
   build-frontend:
     runs-on: ubuntu-latest
@@ -36,4 +34,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./frontend/dist/browser
+          publish_dir: ./frontend/dist/frontend/browser
