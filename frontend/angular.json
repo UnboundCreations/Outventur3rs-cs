@@ -25,7 +25,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist",
-            "baseHref": "/Outventur3rs-coming-soon/",
+            "baseHref": "/Outventur3rs-cs/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
